@@ -11,7 +11,6 @@ John.getBalance()
 # John.withdraw(10000)
 
 # Shehan.transfer(100000, John)
-# Shehan.transfer(100, John)
 
 Paul = InterestRewards(1000, "Paul")
 
