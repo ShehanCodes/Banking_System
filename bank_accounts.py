@@ -51,7 +51,7 @@ class InterestRewards(BankAccount):
 class SavingsAccount(InterestRewards):
     def __init__(self, intialAmount, acctName):
         super().__init__(intialAmount, acctName)
-        self.fee = 5
+        self.fee = 7
 
     def withdraw(self, amount):
         try:
